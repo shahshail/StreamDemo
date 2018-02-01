@@ -1,0 +1,60 @@
+<RelativeLayout android:name="com.streamunlimited.streamsdkdemo.ContentBrowseFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/search_bar_search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/search_bar_textview"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/search_bar_textview"
+            android:background="@null"
+            android:src="@android:drawable/ic_menu_search" />
+
+        <ImageButton
+            android:id="@+id/search_bar_menu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/search_bar_textview"
+            android:layout_alignTop="@id/search_bar_textview"
+            android:layout_toLeftOf="@id/search_bar_search_button"
+            android:background="@null"
+            android:src="@android:drawable/ic_menu_more" />
+
+        <EditText
+            android:id="@+id/search_bar_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/search_bar_menu_button"
+            android:imeOptions="actionSearch"
+            android:singleLine="true" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/container_play_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <FrameLayout
+        android:id="@+id/container_browse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/container_play_widget"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@id/search_bar"
+        android:background="@color/transparent"></FrameLayout>
+
+</RelativeLayout>

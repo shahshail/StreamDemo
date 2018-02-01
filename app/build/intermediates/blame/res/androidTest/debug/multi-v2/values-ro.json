@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/shailshah/Documents/Android/tiohome/stream_demo-master-5a6430da16f01335421bf1bafeef0450d0ecf29b/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ro/values-ro.xml",
+            "map": [
+                {
+                    "source": "/Users/shailshah/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c55a07a2a02d0c643f335628fb0837cb/res/values-ro/values-ro.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,226,330,443,531,643,764,849,930,1013,1125,1238,1338,1452,1557,1663,1827,1930",
+                        "endColumns": "120,103,112,87,111,120,84,80,82,111,112,99,113,104,105,163,102,82",
+                        "endOffsets": "221,325,438,526,638,759,844,925,1008,1120,1233,1333,1447,1552,1658,1822,1925,2008"
+                    }
+                },
+                {
+                    "source": "/Users/shailshah/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/6d0139b45b206fb0767d395ced7d4a62/res/values-ro/values-ro.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2013",
+                        "endColumns": "100",
+                        "endOffsets": "2109"
+                    }
+                }
+            ]
+        }
+    ]
+}

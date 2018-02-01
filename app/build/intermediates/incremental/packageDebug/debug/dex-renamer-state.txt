@@ -1,0 +1,4 @@
+#Thu Feb 01 10:48:07 EST 2018
+base.0=/Users/shailshah/Documents/Android/tiohome/stream_demo-master-5a6430da16f01335421bf1bafeef0450d0ecf29b/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

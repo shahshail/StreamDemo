@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/card_shadow" />
+
+    <item
+        android:bottom="8px"
+        android:drawable="@drawable/card_background"
+        android:right="8px" />
+</layer-list>

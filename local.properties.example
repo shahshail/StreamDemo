@@ -1,0 +1,9 @@
+# Uncomment and update to reflect your local values
+# rename to local.properties
+#sdk.dir=/opt/adt-bundle-linux-x86_64-20131030/sdk
+#ndk.dir=/opt/android-ndk-r9c
+
+#key.store=/opt/your_key.keystore
+#key.alias=mykey
+#key.store.password=password
+#key.alias.password=password

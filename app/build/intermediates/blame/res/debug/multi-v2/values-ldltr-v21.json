@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/shailshah/Documents/Android/tiohome/stream_demo-master-5a6430da16f01335421bf1bafeef0450d0ecf29b/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/shailshah/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c55a07a2a02d0c643f335628fb0837cb/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

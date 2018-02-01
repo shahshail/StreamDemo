@@ -1,0 +1,59 @@
+<manifest package="com.streamunlimited.streamsdkdemo"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--<uses-permission android:name="android.permission.SET_DEBUG_APP" />-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!--<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />-->
+
+    <application
+        android:name="com.streamunlimited.streamsdkdemo.StreamControlApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:resizeableActivity="false"
+        android:theme="@style/Theme.SUE">
+        <activity
+            android:name="com.streamunlimited.streamsdkdemo.ui.devicebrowsing.DeviceOverviewActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- title: @string/title_activity_content_browse -->
+        <activity
+            android:name="com.streamunlimited.streamsdkdemo.ui.contentbrowsing.ContentBrowseActivity"
+            android:configChanges="orientation|screenSize"
+            android:label=""
+            android:parentActivityName="com.streamunlimited.streamsdkdemo.ui.devicebrowsing.DeviceOverviewActivity"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.streamunlimited.streamsdkdemo.ui.devicebrowsing.DeviceOverviewActivity" />
+        </activity>
+        <!-- title: @string/title_activity_content_browse -->
+        <activity
+            android:name="com.streamunlimited.streamsdkdemo.ui.contentbrowsing.contextmenubrowsing.ContextMenuActivity"
+            android:configChanges="orientation|screenSize"
+            android:label=""
+            android:parentActivityName="com.streamunlimited.streamsdkdemo.ui.contentbrowsing.ContentBrowseActivity"
+            android:theme="@style/Theme.Transparent"
+            android:windowSoftInputMode="adjustNothing">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.streamunlimited.streamsdkdemo.ui.contentbrowsing.ContentBrowseActivity" />
+        </activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="712ce755e984ea6a545faf5e18ae366a386a4e2f" />
+    </application>
+
+</manifest>

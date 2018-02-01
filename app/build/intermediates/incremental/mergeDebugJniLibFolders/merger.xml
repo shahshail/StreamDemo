@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/shailshah/Documents/Android/tiohome/stream_demo-master-5a6430da16f01335421bf1bafeef0450d0ecf29b/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/shailshah/Documents/Android/tiohome/stream_demo-master-5a6430da16f01335421bf1bafeef0450d0ecf29b/app/src/debug/jniLibs"/></dataSet></merger>

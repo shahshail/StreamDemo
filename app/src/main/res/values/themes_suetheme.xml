@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.SUE" parent="@android:style/Theme.Holo">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_streamstyle
+        </item>
+        <item name="android:popupMenuStyle">@style/PopupMenuSueTheme</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListViewSueTheme</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNavSueTheme</item>
+        <item name="android:actionBarStyle">@style/ActionBarDarkGreySueTheme</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_streamstyle</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_streamstyle
+        </item>
+        <item name="android:logo">@drawable/transparent</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButtonCloseModeSueTheme</item>
+        <item name="android:windowBackground">@color/devices_background</item>
+
+        <item name="android:alertDialogTheme">@style/AlertDialogSueTheme</item>
+
+        <item name="android:editTextStyle">@style/EditTextSueTheme</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewSueTheme</item>
+        <item name="android:checkboxStyle">@style/CheckBoxSueTheme</item>
+        <item name="android:radioButtonStyle">@style/RadioButtonSueTheme</item>
+        <item name="android:buttonStyle">@style/ButtonSueTheme</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonSueTheme</item>
+        <item name="android:spinnerStyle">@style/SpinnerSueTheme</item>
+        <item name="android:dropDownSpinnerStyle">@style/SpinnerSueTheme.DropDown</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemSueTheme</item>
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarSueTheme</item>
+        <item name="android:seekBarStyle">@style/SeekBarSueTheme</item>
+        <item name="android:ratingBarStyle">@style/RatingBarSueTheme</item>
+        <item name="android:ratingBarStyleIndicator">@style/RatingBarBigSueTheme</item>
+        <item name="android:ratingBarStyleSmall">@style/RatingBarSmallSueTheme</item>
+        <item name="android:buttonStyleToggle">@style/ToggleSueTheme</item>
+
+        <item name="android:scrollbarStyle">insideInset</item>
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:fastScrollAlwaysVisible">true</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_holo</item>
+    </style>
+
+    <style name="Theme.Splashscreen" parent="@style/Theme.SUE">
+        <item name="android:windowBackground">@color/dark_grey</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

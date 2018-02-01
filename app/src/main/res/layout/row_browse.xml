@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_item_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:descendantFocusability="blocksDescendants"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/row_item_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="12dp">
+
+        <ProgressBar
+            android:id="@+id/browse_progress_bar"
+            android:layout_width="@dimen/folder_size"
+            android:layout_height="@dimen/folder_size"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:focusable="false"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/folder_button"
+            android:layout_width="@dimen/folder_size"
+            android:layout_height="@dimen/folder_size"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/browse_progress_bar"
+            android:clickable="false"
+            android:focusable="false"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/browse_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/name_text_view"
+            style="@style/Theme.SUE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="48dp"
+            android:layout_toRightOf="@id/folder_button"
+            android:fadingEdge="horizontal"
+            android:inputType="none"
+            android:maxLines="1"
+            android:paddingBottom="19dp"
+            android:paddingTop="19dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="Test-Content TestNW"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/text_dark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/artist_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/name_text_view"
+            android:layout_below="@+id/name_text_view"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:maxLines="1"
+            android:textColor="@color/text_dark"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:id="@+id/context_menu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_more"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/item_value_text"
+            style="@style/Theme.SUE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@id/context_menu_button"
+            android:layout_toRightOf="@id/name_text_view"
+            android:fadingEdge="horizontal"
+            android:gravity="right"
+            android:inputType="none"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="Test-Content TestNW"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/text_dark"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/browse_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_caret" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/dark_grey"/>
+
+</LinearLayout>

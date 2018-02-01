@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/netapi_action_group">
+        <item
+            android:id="@+id/action_search"
+            android:actionViewClass="android.widget.SearchView"
+            android:icon="@android:drawable/ic_menu_search"
+            android:showAsAction="collapseActionView|ifRoom"
+            android:title="@string/action_search" />
+    </group>
+    <group android:id="@+id/default_action_group">
+        <item
+            android:id="@+id/action_grouping"
+            android:icon="@drawable/ic_browse_grouping"
+            android:showAsAction="always"
+            android:title="@string/group_devices" />
+        <item
+            android:id="@+id/action_top"
+            android:icon="@drawable/ic_queue_music_white_48dp"
+            android:showAsAction="always"
+            android:title="@string/top" />
+    </group>
+
+</menu>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="bar_app_name">TiO Music</string>
+    <string name="app_name">TiO Music</string>
+    <string name="title_activity_device_overview">DeviceOverviewActivity</string>
+    <string name="title_wifi_error">Wifi Error</string>
+    <string name="title_connection_failed">Connection Failed</string>
+    <string name="title_back">Back</string>
+    <string name="subtitle_back">Back to list</string>
+    <string name="action_home">Home</string>
+    <string name="action_search">Search</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="info_connection_failed">Could not connect to client.</string>
+    <string name="info_connection_terminated">Client Connection terminated</string>
+    <string name="info_connection_standby">Client went into Standby.</string>
+    <string name="info_wifi_off">Wifi not enabled</string>
+    <string name="info_turn_wifi_on">Turn on Wifi now?</string>
+    <string name="ctx_rename">Rename</string>
+    <string name="of">of</string>
+    <string name="min_sec">--:--</string>
+    <string name="ex_illegal_state">Activity must implement fragment\'s callbacks.</string>
+    <string name="device_scanning">Scanning&#8230;</string>
+    <string name="info_loading">Loading</string>
+    <string name="info_device_noresponse">Device is not responding. Please check your network connections.</string>
+    <string name="info_device_dead">No response from device. Removing device from the list.</string>
+    <string name="info_nomultiroomsupport">The selected device does not support multiroom operations.</string>
+    <string name="empty_list">This folder doesn\'t contain any items</string>
+    <string name="change_to_speakersystem">Change to Speaker</string>
+    <string name="change_to_normal_system">Change to Multiroom</string>
+    <string name="device_info_string">Speaker Info</string>
+    <string name="context_menu_title">Select search option</string>
+    <string name="my_music">My Music</string>
+    <string name="favorites">Favorites</string>
+    <string name="version">Version %s</string>
+    <string name="ungroup">Ungroup</string>
+    <string name="browsing_unavailable">Browsing is disabled while following another device.</string>
+    <string name="ok">OK</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="username">Username or Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="group_devices">Group devices</string>
+    <string name="top">Top</string>
+    <string name="err_login_empty">Enter your %1$s username and password.</string>
+    <string name="err_login_password">Invalid user or password. Please try again.</string>
+    <string name="a11y_login_logo">music service logo</string>
+    <string name="logged_out">%1$s: Logged out.</string>
+    <string name="mute">Mute</string>
+    <string name="err_validate_ssid">Enter your wifi network SSID.</string>
+    <string name="err_validate_wifi_password">Enter your wifi network password.</string>
+    <string name="close">Close</string>
+    <string name="chromecast_tos_title">Terms of Service</string>
+    <string name="chromecast_tos_explainer_body">In order to use the TiO audio system, you must accept the Google Terms of Service.</string>
+    <string name="accept">Accept</string>
+    <string name="ignore">Ignore</string>
+    <string name="decline">Decline</string>
+    <string name="chromecast_tos">The <a href="http://www.google.com/intl/en/policies/privacy/">Google Privacy Policy</a> describes the information that Google collects during your set-up and use of Chromecast. You can modify your device’s Chromecast built-in privacy settings, such as whether it sends usage data and crash reports to Google, after you have set up your device by accessing the device settings in this application.\n\nBy pressing “Accept” below, you acknowledge that you agree to the <a href="http://www.google.com/intl/en/policies/terms/">Google Terms of Service</a> and <a href="http://www.google.com/intl/en/policies/privacy/">Google Privacy Policy</a>.</string>
+    <string name="show_me">Show Me</string>
+
+    <string-array name="manufacturers">
+        <item>sue</item>
+        <item>streamunlimited</item>
+        <item>anuva</item>
+    </string-array>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TabWidget">
+
+        <!-- Drawable used to draw the divider between tabs. -->
+        <attr name="divider" format="reference" />
+        <!-- Determines whether the strip under the tab indicators is drawn or not. -->
+        <attr name="tabStripEnabled" format="boolean" />
+        <!-- Drawable used to draw the left part of the strip underneath the tabs. -->
+        <attr name="tabStripLeft" format="reference" />
+        <!-- Drawable used to draw the right part of the strip underneath the tabs. -->
+        <attr name="tabStripRight" format="reference" />
+        <!-- Layout used to organize each tab's content. -->
+        <attr name="tabLayout" format="reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="KnobWidgetView">
+
+        <!-- Option to show text in the middle of the view -->
+        <attr name="showText" format="boolean" />
+        <!-- Drawable that rotates if user uses knob -->
+        <attr name="rotatorImg" format="reference" />
+        <!-- Drawable that fills the middle of the view: should also display arrow scale -->
+        <attr name="innerBackgroundImg" format="reference" />
+        <!-- Drawable for the arrow -->
+        <attr name="innerArrowImg" format="reference" />
+        <!-- Amount of turns to get from minValue to maxValue -->
+        <attr name="turnsToMax" format="integer" />
+        <!-- Minimum value for the underlying variable -->
+        <attr name="minValue" format="integer" />
+        <!-- Maximum value for the underlying variable -->
+        <attr name="maxValue" format="integer" />
+        <!-- Position of the arrow with minimum value, in minutes (like on a clock) -->
+        <attr name="arrowStartAngleInMinutes" format="integer" />
+        <!-- Position of the arrow with maximum value, in minutes (like on a clock) -->
+        <attr name="arrowEndAngleInMinutes" format="integer" />
+        <!-- Padding of the inner background in percent of the whole view: e.g. value of 20 = 20% of height of the view -->
+        <attr name="innerBackgroundPadding" format="integer" />
+        <!--
+        Offset from the bottom of the arrow to the point where it should be anchored, in percent of the arrow height:
+        e.g. value of 20 = 20% of height of the arrow
+        -->
+        <attr name="arrowCenterYDelta" format="integer" />
+        <!-- Offset of the bottom of the arrow from the center of the view, in percent of the arrow height -->
+        <attr name="arrowBottomYOffset" format="integer" />
+    </declare-styleable>
+
+</resources>

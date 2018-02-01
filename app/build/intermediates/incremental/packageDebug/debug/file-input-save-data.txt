@@ -1,0 +1,27 @@
+#Internal package file, do not edit.
+#Wed Jan 31 14:09:30 EST 2018
+2.base=/Users/shailshah/Documents/Android/tiohome/stream_demo-master-5a6430da16f01335421bf1bafeef0450d0ecf29b/app/build/intermediates/transforms/stripDebugSymbol/debug/0
+5.set=DEX
+0.path=lib/armeabi-v7a/libgnustl_shared.so
+2.baseType=DIRECTORY
+3.base=/Users/shailshah/Documents/Android/tiohome/stream_demo-master-5a6430da16f01335421bf1bafeef0450d0ecf29b/app/build/intermediates/transforms/stripDebugSymbol/debug/0
+2.set=NATIVE_RESOURCE
+1.path=crashlytics-build.properties
+4.base=/Users/shailshah/Documents/Android/tiohome/stream_demo-master-5a6430da16f01335421bf1bafeef0450d0ecf29b/app/build/intermediates/transforms/stripDebugSymbol/debug/0
+count=6
+5.baseType=DIRECTORY
+2.path=lib/armeabi/libStreamSDKConLib.so
+5.base=/Users/shailshah/Documents/Android/tiohome/stream_demo-master-5a6430da16f01335421bf1bafeef0450d0ecf29b/app/build/intermediates/transforms/dexMerger/debug/0
+4.set=NATIVE_RESOURCE
+3.path=lib/armeabi-v7a/libStreamSDKConLib.so
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=lib/armeabi/libgnustl_shared.so
+1.baseType=DIRECTORY
+5.path=classes.dex
+0.base=/Users/shailshah/Documents/Android/tiohome/stream_demo-master-5a6430da16f01335421bf1bafeef0450d0ecf29b/app/build/intermediates/transforms/stripDebugSymbol/debug/0
+0.baseType=DIRECTORY
+3.set=NATIVE_RESOURCE
+1.base=/Users/shailshah/Documents/Android/tiohome/stream_demo-master-5a6430da16f01335421bf1bafeef0450d0ecf29b/app/build/intermediates/assets/debug
+4.baseType=DIRECTORY
+0.set=NATIVE_RESOURCE

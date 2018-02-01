@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@drawable/ab_solid_streamstyle"
+             android:minWidth="350dp">
+
+    <TextView
+        android:id="@+id/alert_dialog_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/text_light"
+        android:visibility="gone" />
+
+    <SeekBar
+        android:id="@+id/alert_dialog_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/alert_dialog_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ems="10"
+        android:visibility="gone">
+
+        <requestFocus />
+    </EditText>
+
+    <ListView
+        android:id="@+id/alert_dialog_single_choice_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+    </ListView>
+
+</FrameLayout>

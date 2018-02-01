@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tioDarkBlue">#11283E</color>
+    <color name="tioBlue">#3F9FC4</color>
+    <color name="tio_blue_transparent">#CC3F9FC4</color>
+    <color name="tioDividerGrey">#878787</color>
+    <color name="tioLightGray">#C2C3C5</color>
+    <color name="tioGray">#7D7D7D</color>
+    <color name="tioDarkGrey">#696969</color>
+    <color name="tioCharcoalGrey">#555555</color>
+
+    <color name="light_grey">@color/tioLightGray</color>
+    <color name="dark_grey">@color/tioGray</color>
+    <color name="black">#000000</color>
+
+    <color name="primary">@color/tioDarkBlue</color>
+    <color name="accent">@color/tioBlue</color>
+
+    <color name="text_accent_light">@color/tioBlue</color>
+    <color name="text_light">#F4F4F4</color>
+    <color name="text_dark">@android:color/black</color>
+
+    <color name="shadow">#30000000</color>
+
+    <color name="materialDarkPressedHighlight">#CCCCCC</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="textunselected">#F4F4F4</color>
+    <color name="textselected">#F4F4F4</color>
+    <color name="blue_background">#13324f</color>
+    <color name="list_header_background">@color/tioDividerGrey</color>
+    <color name="list_background">@color/tioLightGray</color>
+    <color name="mini_player_background">#4A4A4A</color>
+    <color name="pressed_streamstyle">@color/tio_blue_transparent</color>
+    <color name="devices_background">@color/tioDarkGrey</color>
+</resources>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="EditTextSueTheme" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/edit_text_holo_dark</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="AutoCompleteTextViewSueTheme" parent="android:Widget.AutoCompleteTextView">
+        <item name="android:dropDownSelector">@drawable/list_selector_holo_dark</item>
+        <item name="android:background">@drawable/edit_text_holo_dark</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="CheckBoxSueTheme" parent="android:Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/btn_check_holo_dark</item>
+    </style>
+
+    <style name="RadioButtonSueTheme" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/btn_radio_holo_dark</item>
+    </style>
+
+    <style name="ButtonSueTheme" parent="android:Widget.Button">
+        <item name="android:background">@drawable/btn_default_holo_dark</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="ImageButtonSueTheme" parent="android:Widget.ImageButton">
+        <item name="android:background">@drawable/btn_default_holo_dark</item>
+    </style>
+
+    <style name="SpinnerSueTheme" parent="android:Widget.Spinner">
+        <item name="android:background">@drawable/spinner_background_holo_dark</item>
+        <item name="android:dropDownSelector">@drawable/list_selector_holo_dark</item>
+    </style>
+
+    <style name="SpinnerSueTheme.DropDown">
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+
+    <style name="SpinnerDropDownItemSueTheme" parent="android:Widget.DropDownItem.Spinner">
+        <item name="android:checkMark">@drawable/btn_radio_holo_dark</item>
+        <item name="android:background">@drawable/ab_solid_streamstyle</item>
+    </style>
+
+    <style name="SpinnerItemSueTheme" parent="@android:style/Widget.TextView.SpinnerItem">
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="ProgressBarSueTheme" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_dark
+        </item>
+        <item name="android:indeterminateDrawable">
+            @drawable/scrubber_progress_horizontal_holo_dark
+        </item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+
+    <style name="SeekBarSueTheme" parent="android:Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_dark
+        </item>
+        <item name="android:indeterminateDrawable">
+            @drawable/scrubber_progress_horizontal_holo_dark
+        </item>
+        <item name="android:minHeight">13dip</item>
+        <item name="android:maxHeight">13dip</item>
+        <item name="android:thumb">@drawable/scrubber_control_selector_holo_dark</item>
+        <item name="android:thumbOffset">16dip</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+    </style>
+
+    <style name="RatingBarSueTheme" parent="android:Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar_full_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/ratingbar_full_holo_dark</item>
+    </style>
+
+    <style name="RatingBarBigSueTheme">
+        <item name="android:progressDrawable">@drawable/ratingbar_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/ratingbar_holo_dark</item>
+        <item name="android:minHeight">35dip</item>
+        <item name="android:maxHeight">35dip</item>
+    </style>
+
+    <style name="RatingBarSmallSueTheme">
+        <item name="android:progressDrawable">@drawable/ratingbar_small_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/ratingbar_small_holo_dark</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+
+    <style name="ToggleSueTheme" parent="android:Widget.Button.Toggle">
+        <item name="android:background">@drawable/btn_toggle_holo_dark</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="ActionBarDarkGreySueTheme" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@color/primary</item>
+        <item name="android:progressBarStyle">@style/ProgressBarSueTheme</item>
+    </style>
+
+    <style name="SueDialogWindowTitle">
+        <item name="android:textAppearance">@style/TextAppearanceSueTheme</item>
+        <!--<item name="android:drawableLeft">TODO CHANGE TO NEW DRAWABLE</item>-->
+    </style>
+
+    <style name="TextWhiteSueTheme">
+        <item name="android:textAppearance">@style/TextWhiteAppearanceSueTheme</item>
+    </style>
+
+    <style name="TextAppearanceSueTheme" parent="@android:style/TextAppearance.Holo.DialogWindowTitle">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextWhiteAppearanceSueTheme" parent="@android:style/TextAppearance.Holo.DialogWindowTitle">
+        <item name="android:textColor">@color/textunselected</item>
+    </style>
+
+    <style name="AlertDialogSueTheme" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowTitleStyle">@style/SueDialogWindowTitle</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+
+    <style name="PopupDialogSueTheme" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowTitleStyle">@style/TextWhiteSueTheme</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/darker_gray</item>
+        <item name="android:buttonStyle">@style/ButtonSueTheme</item>
+    </style>
+
+    <style name="PopupMenuSueTheme" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_streamstyle</item>
+    </style>
+
+    <style name="DropDownNavSueTheme" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_streamstyle</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_streamstyle</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_streamstyle</item>
+    </style>
+
+    <style name="DropDownListViewSueTheme" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_streamstyle</item>
+    </style>
+
+    <style name="ActionButtonCloseModeSueTheme" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_streamstyle</item>
+    </style>
+
+    <style name="Tio.Dialog.Fullscreen" parent="android:Theme.Material.Dialog">
+        <item name="android:windowMinWidthMajor">70%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+
+    <style name="Tio.Material.Button" parent="android:Widget.Material.Button.Borderless.Colored">
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/font_button</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:height">36dp</item>
+        <item name="android:colorPressedHighlight">@color/materialDarkPressedHighlight</item>
+        <item name="android:disabledAlpha">0.3</item>
+    </style>
+
+    <style name="Tio.Material.Alert" parent="android:Theme.Material.Dialog.Alert">
+        <item name="android:buttonBarButtonStyle">@style/Tio.Material.Button</item>
+    </style>
+</resources>
